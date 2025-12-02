@@ -1,0 +1,1 @@
+{"input_size": 10, "hidden_size": 64, "num_layers": 1, "features": ["Returns", "RSI", "MFI", "Rel_Vol", "ADX", "Dist_EMA200", "VIX_Close", "VIX_RSI", "VIX_ADX", "VIX_EMA"], "stock_features": ["Returns", "RSI", "MFI", "Rel_Vol", "ADX", "Dist_EMA200"], "vix_features": ["VIX_Close", "VIX_RSI", "VIX_ADX", "VIX_EMA"]}

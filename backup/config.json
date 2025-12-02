@@ -1,0 +1,28 @@
+{
+    "tickers": "RELIANCE.NS,^nsei,mon100.ns,bse.ns",
+    "epochs": 100,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "hidden_size": 64,
+    "num_layers": 1,
+    "seq_length": 5,
+    "features": [
+        "Returns",
+        "RSI",
+        "RSI_Open",
+        "RSI_High",
+        "RSI_Low",
+        "MFI",
+        "Rel_Vol",
+        "ADX",
+        "Dist_EMA200",
+        "VIX_Close",
+        "VIX_RSI",
+        "VIX_RSI_Open",
+        "VIX_RSI_High",
+        "VIX_RSI_Low",
+        "VIX_ADX",
+        "VIX_EMA"
+    ],
+    "usage_tickers": "RELIANCE.NS\nTCS.NS\nINFY.NS\nSBIN.NS\n^nsei\nbse.ns\n^NSEBANK\nBAJFINANCE.NS\nINDIGO.NS\nHDFCLIFE.NS"
+}
