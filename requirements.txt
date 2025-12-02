@@ -1,0 +1,10 @@
+PyQt6
+pandas
+numpy
+yfinance
+torch
+scikit-learn
+vectorbt
+matplotlib
+reportlab
+ta

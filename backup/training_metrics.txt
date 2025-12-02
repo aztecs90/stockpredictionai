@@ -1,0 +1,40 @@
+
+Model: model_combined.pth
+ACTUAL    -> Buy: 373, Sell: 356, Hold: 1649
+PREDICTED -> Buy: 542, Sell: 808, Hold: 1028
+------------------------------
+
+Model: model_combined.pth
+ACTUAL    -> Buy: 1005, Sell: 893, Hold: 2858
+PREDICTED -> Buy: 1544, Sell: 1431, Hold: 1781
+------------------------------
+
+Model: model_combined.pth
+ACTUAL    -> Buy: 1005, Sell: 893, Hold: 2858
+PREDICTED -> Buy: 1476, Sell: 1477, Hold: 1803
+------------------------------
+
+Model: model_combined.pth
+ACTUAL    -> Buy: 1005, Sell: 893, Hold: 2858
+PREDICTED -> Buy: 1711, Sell: 1266, Hold: 1779
+------------------------------
+
+Model: model_1stmodel.pth
+ACTUAL    -> Buy: 1002, Sell: 895, Hold: 2859
+PREDICTED -> Buy: 1390, Sell: 1855, Hold: 1511
+------------------------------
+
+Model: model_2ndodel.pth
+ACTUAL    -> Buy: 1002, Sell: 895, Hold: 2859
+PREDICTED -> Buy: 1263, Sell: 1741, Hold: 1752
+------------------------------
+
+Model: model_3rd.pth
+ACTUAL    -> Buy: 1002, Sell: 895, Hold: 2859
+PREDICTED -> Buy: 1439, Sell: 1163, Hold: 2154
+------------------------------
+
+Model: model_4TH.pth
+ACTUAL    -> Buy: 1002, Sell: 895, Hold: 2859
+PREDICTED -> Buy: 879, Sell: 1297, Hold: 2580
+------------------------------

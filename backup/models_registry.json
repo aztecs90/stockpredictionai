@@ -1,0 +1,190 @@
+{
+    "1stmodel": {
+        "description": "1st model default parameters",
+        "created_at": "2025-12-02T14:32:39.137750",
+        "parameters": {
+            "epochs": 100,
+            "batch_size": 32,
+            "learning_rate": 0.001,
+            "hidden_size": 64,
+            "num_layers": 1,
+            "seq_length": 5
+        },
+        "features": {
+            "selected": [
+                "Returns",
+                "RSI",
+                "MFI",
+                "Rel_Vol",
+                "ADX",
+                "Dist_EMA200",
+                "VIX_Close",
+                "VIX_RSI",
+                "VIX_ADX",
+                "VIX_EMA"
+            ],
+            "stock_features": [
+                "Returns",
+                "RSI",
+                "MFI",
+                "Rel_Vol",
+                "ADX",
+                "Dist_EMA200"
+            ],
+            "vix_features": [
+                "VIX_Close",
+                "VIX_RSI",
+                "VIX_ADX",
+                "VIX_EMA"
+            ]
+        },
+        "files": {
+            "model_path": "model_1stmodel.pth",
+            "scaler_path": "scaler_1stmodel.pkl"
+        }
+    },
+    "2ndodel": {
+        "description": "contains rsi of ohlc seperately",
+        "created_at": "2025-12-02T16:21:12.982299",
+        "parameters": {
+            "epochs": 100,
+            "batch_size": 32,
+            "learning_rate": 0.001,
+            "hidden_size": 64,
+            "num_layers": 1,
+            "seq_length": 5
+        },
+        "features": {
+            "selected": [
+                "Returns",
+                "RSI",
+                "MFI",
+                "Rel_Vol",
+                "ADX",
+                "Dist_EMA200",
+                "VIX_Close",
+                "VIX_RSI",
+                "VIX_ADX",
+                "VIX_EMA"
+            ],
+            "stock_features": [
+                "Returns",
+                "RSI",
+                "MFI",
+                "Rel_Vol",
+                "ADX",
+                "Dist_EMA200"
+            ],
+            "vix_features": [
+                "VIX_Close",
+                "VIX_RSI",
+                "VIX_ADX",
+                "VIX_EMA"
+            ]
+        },
+        "files": {
+            "model_path": "model_2ndodel.pth",
+            "scaler_path": "scaler_2ndodel.pkl"
+        }
+    },
+    "3rd": {
+        "description": "3rd model",
+        "created_at": "2025-12-02T17:00:23.304941",
+        "parameters": {
+            "epochs": 100,
+            "batch_size": 32,
+            "learning_rate": 0.001,
+            "hidden_size": 64,
+            "num_layers": 1,
+            "seq_length": 5
+        },
+        "features": {
+            "selected": [
+                "Returns",
+                "RSI",
+                "MFI",
+                "Rel_Vol",
+                "ADX",
+                "Dist_EMA200",
+                "VIX_Close",
+                "VIX_RSI",
+                "VIX_ADX",
+                "VIX_EMA"
+            ],
+            "stock_features": [
+                "Returns",
+                "RSI",
+                "MFI",
+                "Rel_Vol",
+                "ADX",
+                "Dist_EMA200"
+            ],
+            "vix_features": [
+                "VIX_Close",
+                "VIX_RSI",
+                "VIX_ADX",
+                "VIX_EMA"
+            ]
+        },
+        "files": {
+            "model_path": "model_3rd.pth",
+            "scaler_path": "scaler_3rd.pkl"
+        }
+    },
+    "4TH": {
+        "description": "4th model",
+        "created_at": "2025-12-02T17:38:23.232489",
+        "parameters": {
+            "epochs": 100,
+            "batch_size": 32,
+            "learning_rate": 0.001,
+            "hidden_size": 64,
+            "num_layers": 1,
+            "seq_length": 5
+        },
+        "features": {
+            "selected": [
+                "Returns",
+                "RSI",
+                "RSI_Open",
+                "RSI_High",
+                "RSI_Low",
+                "MFI",
+                "Rel_Vol",
+                "ADX",
+                "Dist_EMA200",
+                "VIX_Close",
+                "VIX_RSI",
+                "VIX_RSI_Open",
+                "VIX_RSI_High",
+                "VIX_RSI_Low",
+                "VIX_ADX",
+                "VIX_EMA"
+            ],
+            "stock_features": [
+                "Returns",
+                "RSI",
+                "RSI_Open",
+                "RSI_High",
+                "RSI_Low",
+                "MFI",
+                "Rel_Vol",
+                "ADX",
+                "Dist_EMA200"
+            ],
+            "vix_features": [
+                "VIX_Close",
+                "VIX_RSI",
+                "VIX_RSI_Open",
+                "VIX_RSI_High",
+                "VIX_RSI_Low",
+                "VIX_ADX",
+                "VIX_EMA"
+            ]
+        },
+        "files": {
+            "model_path": "model_4TH.pth",
+            "scaler_path": "scaler_4TH.pkl"
+        }
+    }
+}
